@@ -56,6 +56,13 @@
   font-weight: 900;
   font-stretch: normal;
 }
+
+@import url("https://use.typekit.net/gqj8sru.css");
+
+* {
+  font-family: rival-sans, sans-serif;
+}
+
 .tk-anaphora-stencil {
   font-family: "anaphora-stencil", sans-serif;
 }
@@ -84,7 +91,7 @@ body {
 
 .headerImage {
   width: 180px;
-  height: 90px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -138,7 +145,6 @@ h1 {
   background-position: top;
   background-position-y: 100px;
   background-repeat: no-repeat;
-  background-size: calc(cover - 30%);
 }
 /* SECTION KEY NUMBERS */
 .StatConso {
@@ -149,6 +155,17 @@ h1 {
   margin-bottom: 200px;
 }
 
+.StatTitle {
+  font-size: 35px;
+  margin-left: 15vw;
+  text-align: center;
+}
+
+.consoTitle {
+  font-size: 35px;
+  margin-left: 35vw;
+}
+
 .threeContainer {
   padding: 50px;
   display: flex;
@@ -157,10 +174,11 @@ h1 {
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 25px;
   max-height: 20vh;
-  height: 500px;
+  height: 400px;
   background-color: white;
 }
 .unContainer {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,44 +195,51 @@ h1 {
   font-weight: bold;
 }
 
-.articleGraph {
-  background-color: blueviolet;
-}
-
-.articleGraphContainer {
-  display: flex;
-}
-
 .someArticles {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 80vw;
   display: flex;
   flex-direction: column;
   margin-bottom: 100px;
 }
 
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s ease;
+  left: -5vw;
+  top: -2vw;
+}
+
+.unContainer:hover .overlay {
+  opacity: 0;
+}
+
 .threeArticles {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 500px;
 }
 
 .oneArticle {
-  background-color: blue;
-  max-width: 20vw;
+  max-width: 30vw;
   height: 100%;
-  width: 400px;
+  width: 500px;
   border-radius: 30px;
   display: flex;
   flex-direction: column-reverse;
   box-shadow: 0px 3px 6px #00000029;
   background-image: url(./img/Image\ 8.png);
+  background-repeat: no-repeat;
+  background-size: calc(cover - 100%);
 }
 .titleAndButton {
   background-color: white;
-  height: 40%;
+  height: 30%;
   padding: 50px;
   border-radius: 28px;
   text-align: center;
@@ -247,4 +272,28 @@ h3 {
 .read:hover {
   background-color: #143642;
   color: white;
+}
+
+#footer {
+  width: 100%;
+}
+
+.articleGraphContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textContainer {
+  width: 30vw;
+}
+
+.graphText {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.Title {
+  font-family: "anaphora-stencil";
+  font-size: 35px;
 }

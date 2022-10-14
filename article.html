@@ -20,7 +20,7 @@
     <!--------- Titre + Photo ----------->
     <section class="articleInfoSection">
       <div class="articleInfo">
-        <h1>Les transport et la planète</h1>
+        <h1 class="Title">Les transport et la planète</h1>
         <img
           src="./img/Image 9.png"
           alt="a boy in a train"
@@ -51,15 +51,22 @@
     <!--------- Article Graph --------->
     <section class="articleGraph">
       <div class="articleGraphContainer">
-        <img src="./img/graph.png" />
+        <iframe
+          title="Report Section"
+          width="700"
+          height="850"
+          src="https://app.powerbi.com/view?r=eyJrIjoiNmRjNGU3YWMtZjhiOC00NWY1LTkxNzUtMzIwZmYyZDNiZjUyIiwidCI6IjkwMWNiNGNhLWI4NjItNDAyOS05MzA2LWU1Y2QwZjZkOWY4NiIsImMiOjh9"
+          frameborder="0"
+          allowfullscreen="true"
+        ></iframe>
         <div class="textContainer">
-          <p>
+          <p class="graphText">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
             et ea rebum.
           </p>
-          <p>
+          <p class="graphText">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
@@ -69,7 +76,7 @@
             et dolore
           </p>
 
-          <p>
+          <p class="graphText">
             Source: Ministère de la Transition Ecologique et de la Cohésion des
             Territoires
           </p>
@@ -78,46 +85,39 @@
     </section>
 
     <!--  -->
-    <section class="twoSectionsContent">
-      <!--------- 1rst Stat ----------->
-      <section class="StatsArticles">
-        <section class="StatConso">
-          <h2>De la voiture au bus</h2>
-          <div class="threeContainer">
-            <div class="unContainer">
-              <div class="StatChiffre"><i>354 g/jour</i></div>
-              <p class="StatText">
-                des émissions de CO2 du transport proviennent du transport routier
-                en <br />2019.
-              </p>
+    <!--------- 1rst Stat ----------->
+    <section class="StatsArticles">
+      <section class="StatConso">
+        <h2 class="consoTitle">De la voiture au bus</h2>
+        <div class="threeContainer">
+          <div class="unContainer">
+            <div class="StatChiffre"><i>172 g/jour</i></div>
+            <p class="StatText">Soit une économie d'environ 50%.</p>
+            <div class="overlay">
+              <img src="./img/nuage.png" alt="nuage" class="nuageImage" />
             </div>
           </div>
-        </section>
-        <!--  -->
-        <section class="someArticles">
-          <h2>Quelques Articles</h2>
-          <div class="threeArticles">
-            <div class="oneArticle">
-              <div class="titleAndButton">
-                <h3>Titre de l'article</h3>
-                <a class="read" href="./article.html">Lire</a>
-              </div>
-            </div>
-            <div class="oneArticle">
-              <div class="titleAndButton">
-                <h3>Titre de l'article</h3>
-                <a class="read" href="">Lire</a>
-              </div>
-            </div>
-            <div class="oneArticle">
-              <div class="titleAndButton">
-                <h3>Titre de l'article</h3>
-                <a class="read" href="">Lire</a>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </section>
+      <!--  -->
+      <section class="someArticles">
+        <h1 class="Title">Les autres articles de la semaine</h1>
+        <div class="threeArticles">
+          <div class="oneArticle">
+            <div class="titleAndButton">
+              <h3>La vie de votre voiture</h3>
+              <a class="read" href="./article.html">Lire</a>
+            </div>
+          </div>
+          <div class="oneArticle">
+            <div class="titleAndButton">
+              <h3>l'essor de l'électrique</h3>
+              <a class="read" href="">Lire</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
     <img id="footer" src="./img/Groupe 3734.png" alt="footer" />
     <!------------------->
   </body>
