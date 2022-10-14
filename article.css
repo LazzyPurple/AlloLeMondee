@@ -1,0 +1,250 @@
+/* Fonts */
+
+@import url("https://p.typekit.net/p.css?s=1&k=gqj8sru&ht=tk&f=51317.51318.51319.51320&a=99956975&app=typekit&e=css");
+@font-face {
+  font-family: "anaphora-stencil";
+  src: url("https://use.typekit.net/af/9514d6/000000000000000077370789/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/9514d6/000000000000000077370789/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/9514d6/000000000000000077370789/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "anaphora-stencil";
+  src: url("https://use.typekit.net/af/63def2/00000000000000007737078b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/63def2/00000000000000007737078b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/63def2/00000000000000007737078b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "anaphora-stencil";
+  src: url("https://use.typekit.net/af/77e3da/000000000000000077370793/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/77e3da/000000000000000077370793/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/77e3da/000000000000000077370793/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "anaphora-stencil";
+  src: url("https://use.typekit.net/af/e6d1f0/000000000000000077370787/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e6d1f0/000000000000000077370787/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e6d1f0/000000000000000077370787/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+.tk-anaphora-stencil {
+  font-family: "anaphora-stencil", sans-serif;
+}
+
+/* CSS Style*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  display: flex;
+  background-image: url(./img/Path\ 5654.png);
+  background-position: top;
+  justify-content: space-around;
+}
+
+.headerText {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "anaphora-stencil";
+  color: white;
+  text-align: center;
+}
+
+.headerImage {
+  width: 180px;
+  height: 90px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "anaphora-stencil";
+  font-weight: 500;
+}
+
+.articleInfoSection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.articleInfo {
+  flex-direction: column;
+}
+
+.articleImage {
+  width: 70vw;
+}
+
+.Stats {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/Path\ 5642.png);
+  background-position: top;
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+  background-size: calc(cover - 100%);
+}
+
+.StatCO2 {
+  margin-top: 100px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.StatsArticles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/Path\ 5653.png);
+  background-position: top;
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+  background-size: calc(cover - 30%);
+}
+/* SECTION KEY NUMBERS */
+.StatConso {
+  margin-top: 100px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.threeContainer {
+  padding: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 25px;
+  max-height: 20vh;
+  height: 500px;
+  background-color: white;
+}
+.unContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.StatChiffre {
+  color: #ff4539;
+  font-size: 99px;
+  font-weight: bold;
+}
+.StatText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.articleGraph {
+  background-color: blueviolet;
+}
+
+.articleGraphContainer {
+  display: flex;
+}
+
+.someArticles {
+  margin-top: 100px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.threeArticles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.oneArticle {
+  background-color: blue;
+  max-width: 20vw;
+  height: 100%;
+  width: 400px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  box-shadow: 0px 3px 6px #00000029;
+  background-image: url(./img/Image\ 8.png);
+}
+.titleAndButton {
+  background-color: white;
+  height: 40%;
+  padding: 50px;
+  border-radius: 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.read {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #143642;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: sans-serif;
+  color: #143642;
+  height: 41px;
+  transition: 0.2s;
+  width: 45%;
+}
+.read:hover {
+  background-color: #143642;
+  color: white;
+}
